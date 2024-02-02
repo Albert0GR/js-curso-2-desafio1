@@ -25,17 +25,17 @@ function botonPrompt(){
 // "Yo amo JS" siempre que se presione el botón "Alerta".
 
 function botonAlerta(){
-    alert("Yo amo JS")
+    alert("Yo amo JavaScript")
 }
 
 
 // Al hacer clic en el botón "suma", pide 2 números y muestra el resultado de la suma en una alerta.
 
 function botonSuma(){
-    let numero1 =prompt('Ingresa primer numero')
-    let numero2 =prompt('Ingresa segundo numero')
+    let numero1 =parseInt(prompt('Ingresa primer numero'))
+    let numero2 =parseInt(prompt('Ingresa segundo numero'))
     let suma= numero1 + numero2
-    alert(`El resultado es ${suma}`)
+    alert(`El resultado de ${numero1} + ${numero2} es ${suma}`)
 }
 
 
